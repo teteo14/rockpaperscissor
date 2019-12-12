@@ -1,0 +1,86 @@
+/* CSS */
+
+/* pictures used for the button in playervsia.php*/
+a.bouton1 {
+display: block;
+width: 150px;
+height: 110px;
+background: url(img/rock.png);
+}
+a.bouton1:hover {
+background: url(img/rock3.png);
+}
+
+a.bouton2 {
+display: block;
+width: 180px;
+height: 110px;
+background: url(img/paper.png);
+}
+a.bouton2:hover {
+background: url(img/paper3.png);
+}
+
+a.bouton3 {
+display: block;
+width: 180px;
+height: 110px;
+background: url(img/scissor.png);
+}
+a.bouton3:hover {
+background: url(img/scissor3.png);
+}
+
+/* ------- */ 
+
+#img1
+{
+weight:450px;
+height:450px;
+}
+
+* {
+ font-size: 100%;
+ font-family: Roboto;
+}
+
+a.navbar-brand{
+	font-weight: bold;
+	font-size: 250%;
+}
+
+#button
+{
+	weight:450px;
+}
+
+#par
+{
+	font-size: 100px;
+	color:blue;
+}
+
+#title
+{
+	margin-bottom: 0.5rem;
+	margin-left: 90px;
+	font-size:2.5rem;
+}
+#text
+{
+  margin-left: 90px;
+  margin-right: 90px;
+}
+#text2
+{
+  margin-right: 150px;
+}
+
+div.relative
+{
+	position: static ;
+  width: 600px;
+  height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
